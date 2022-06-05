@@ -1,0 +1,203 @@
+html{
+	background: #E5E5E5;
+}
+
+header{
+	width: 100%;
+	height: 50px;
+	
+}
+
+.logo{
+	position: absolute;
+	margin: 30px 0 0 48px;
+}
+
+body{
+	font-family: 'Arial';
+	font-style: normal;
+}
+
+main{
+	width: 100%;
+	height: 600px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.principal{
+	width: 70%;
+	height: 100%;
+	
+	
+}
+
+.caixa-texto{
+	display: block;
+	resize: none;
+	width: 75%;
+	height: 80%;
+	margin: 30px auto;
+	padding: 10px;
+	font-size: 1.4em;
+	line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+.lateral{
+	width: 25%;
+	height: 95%;
+	margin-right: 25px;
+	background-color: #F1F8FF;
+	border-radius: 25px;
+	
+}
+
+.imagem{
+
+	margin-top: 80px;
+}
+
+
+
+.texto-h3{
+		
+	font-weight: 700;
+	font-size: 24px;
+	width: 80%;
+	margin: 10px auto;
+	
+	
+}
+
+.imagem, .texto-h3, .texto-paragrafo{
+	text-align: center;
+}
+
+.botoes{
+	width: 100%;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.cripto{
+	width: 180px;
+	padding: 24px;
+	color: white;
+	background: #0A3871;
+	border-radius: 24px;
+
+}
+
+.cripto:hover{
+	background: #4168FF;
+	transition: 0.5s background;
+	text-decoration: underline;
+	box-shadow: 1px 1px 1px #999;
+	cursor: pointer;
+}
+
+.descripto{
+	margin-left: 20px;
+	width: 180px;
+	padding: 24px;
+	border: 1px solid #black;
+	border-radius: 24px;
+
+
+}
+
+.descripto:hover{
+	background: #C0C0C0;
+	text-decoration: underline;
+	transition: 0.5s background;
+	box-shadow: 1px 1px 1px #999;
+	cursor: pointer;
+}
+
+
+.botao-copy{
+	display: block;
+	
+	padding: 20px;
+	width: 250px;
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+	margin: 0 auto;
+}
+.botao-copy:hover{
+	background: #C0C0C0;
+	text-decoration: underline;
+	transition: 0.5s background;
+	box-shadow: 1px 1px 1px #999;
+	cursor: pointer;
+}
+
+.limpar{
+	margin-left: 20px;
+	padding: 20px;
+	width: 180px;
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+	background: red;
+	color: white;
+	
+}
+.limpar:hover{
+	background: lightcoral;
+	color: white;
+	text-decoration: underline;
+	transition: 0.5s background;
+	box-shadow: 1px 1px 1px #999;
+	cursor: pointer;
+}
+
+.texto-secreto{
+	width: 90%;
+	height: 70%;
+	margin: 20px 15px;
+	box-sizing: border-box;
+
+
+}
+
+.texto-secreto h3{
+
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+.texto-secreto textarea{
+	margin-top: 10px;
+	resize: none;
+	width: 100%;
+	height: 90%;
+	box-shadow: 0 0 0 0;
+	border: 0 none;
+	outline: 0;
+	background-color: #F1F8FF;
+}
+
+.ocultar{
+	display: none;
+}
+
+footer{
+	margin: 0 auto;
+	width: 97%;
+	height: 60px;
+	background-color: black;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+footer p{
+	font-size: 0.8em;
+	display: block;
+	color: white;
+	margin: auto;
+}

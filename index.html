@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" href="estilo.css">
+	<title></title>
+</head>
+<body>
+	<header>
+		<img class="logo" src="img/Vector.png">
+	</header>
+
+	<main>
+		<section class="principal">
+			<div>
+				<textarea class="caixa-texto" placeholder="Digite seu texto" rows="15"></textarea>
+			</div>
+			<div class="botoes">
+				<button class="cripto">Criptografar</button>
+				<button class="descripto">Descriptografar</button>
+				<button class="limpar" onclick="limpar()">Limpar</button>
+			</div>
+			
+		</section>
+		<section class="lateral">
+			<div class="imagem">
+				<img src="img/hacker.jpg">
+			</div>
+			<div class="texto-h3">
+				<h3>Nenhuma mensagem encontrada</h3>
+			</div>
+			<div class="texto-paragrafo">
+				<p>Digite um texto que você deseja criptografar ou descriptografar</p>
+			</div>
+			<div class="texto-secreto ocultar">
+				<h3>Mensagem encriptografada:</h3>
+				<textarea id="para-copiar" class="texto-encriptado">Um grande varejista uma vez disse o seguinte...</textarea>
+				
+			</div>
+			<div class="botao ocultar">
+				<button class="botao-copy">Copiar</button>
+			</div>
+			
+		</section>
+
+	</main>
+
+	<footer>
+		<p>© 2022 By Angelosan. Todos os direitos reservados. É proibida a reprodução do conteúdo sem autorização prévia.</p>
+	</footer>
+	<script src="script.js"></script>
+
+</body>
+</html>
