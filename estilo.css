@@ -119,6 +119,11 @@ main{
 	cursor: pointer;
 }
 
+.span{
+	display: block;
+	font-size: 0.8em;
+	text-align: center;
+}
 
 .botao-copy{
 	display: block;

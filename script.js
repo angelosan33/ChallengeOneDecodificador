@@ -16,13 +16,14 @@ function encriptar() {
 	ocultar();
 	resultado.textContent = transformaTexto(recuperarTexto());
 	desocultar();
-	
+	zerarSpan();
 }
 
 function desincriptar(){
 	ocultar();
 	resultado.textContent = destransformaTexto(recuperarTexto());
 	desocultar();
+	zerarSpan();
 }
 
 function recuperarTexto() {
@@ -49,13 +50,21 @@ function limpar(){
 	secreto.classList.add('ocultar');
 	botao.classList.add('ocultar');
 	document.querySelector('.caixa-texto').value = "";
+	zerarSpan();
+}
+
+function zerarSpan(){
+	document.querySelector('.span').textContent = "*Copie o texto acima para colar ao lado e descripitografar!";
+	document.querySelector('.span').style.color = "black";
 }
 
 function copiarParaAreaTrabalho(){
+	document.querySelector('.span').textContent = "Texto copiado!";
+	document.querySelector('.span').style.color = "red";
 	let conteudo = document.getElementById('para-copiar');
 	conteudo.select();
-	/*document.querySelector('.texto-encriptado').select();*/
 	document.execCommand('copy');
+
 }
 
 function transformaTexto(mensagem) {
