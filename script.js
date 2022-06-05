@@ -27,7 +27,7 @@ function desincriptar(){
 
 function recuperarTexto() {
 	var texto = document.querySelector('.caixa-texto');
-	return texto.value;
+	return texto.value.toLowerCase();
 }
 
 function ocultar() {
